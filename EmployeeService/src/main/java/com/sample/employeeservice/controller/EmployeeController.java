@@ -17,7 +17,7 @@ public class EmployeeController {
 	
 	@RequestMapping("/test")
 	public String testMethod() {
-		return "Test successful";
+		return "Test successful!!!";
 		
 	}
 }
