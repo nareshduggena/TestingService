@@ -9,7 +9,7 @@ public class TestHealthController {
 
 	@RequestMapping(method=RequestMethod.GET, value= "/apphealth")
 	public String testAppHealth() {
-		String response = "Application is up and running--!!";
+		String response = "Application is up and running updated----!!";
 		System.out.println(response);
 		return response;
 		
